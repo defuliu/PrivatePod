@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GitHubProject'
-  s.version          = '0.1.2gi'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of GitHubProject.'
 
 # This description is used to generate tags and improve search results.
