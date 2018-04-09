@@ -10,6 +10,13 @@
 #endif
 #endif
 
+#import "NSCache+ZGCache.h"
+#import "NSObject+ZGModel.h"
+#import "ZGDBModelInfo.h"
+#import "ZGDBTool.h"
+#import "ZGFMDB.h"
+#import "ZGFMDBConfig.h"
+#import "ZGMainDB.h"
 
 FOUNDATION_EXPORT double GitHubProjectVersionNumber;
 FOUNDATION_EXPORT const unsigned char GitHubProjectVersionString[];

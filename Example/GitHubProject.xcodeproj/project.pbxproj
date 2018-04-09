@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0615C79B081ED3F035F1BF68 /* GitHubProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GitHubProject.podspec; path = ../GitHubProject.podspec; sourceTree = "<group>"; };
+		0615C79B081ED3F035F1BF68 /* GitHubProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GitHubProject.podspec; path = ../GitHubProject.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1F118D3CA930DF11876F8440 /* Pods_GitHubProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHubProject_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DE5EF0B13250D3899F11592 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4DE5EF0B13250D3899F11592 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4FF30A409F321CC65C87A7C9 /* Pods-GitHubProject_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubProject_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubProject_Tests/Pods-GitHubProject_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GitHubProject_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubProject_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		67A3C4F44DBC40559A9CD807 /* Pods-GitHubProject_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubProject_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubProject_Example/Pods-GitHubProject_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ADB6F0489DE2110B6DE0B54A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ADB6F0489DE2110B6DE0B54A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AE4A3D00321861378BDB248B /* Pods-GitHubProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubProject_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubProject_Example/Pods-GitHubProject_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B4D8005834E83959B361D04B /* Pods-GitHubProject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubProject_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubProject_Tests/Pods-GitHubProject_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D6297DC3C628193827AD946F /* Pods_GitHubProject_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHubProject_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -388,10 +388,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GitHubProject_Example/Pods-GitHubProject_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/GitHubProject/GitHubProject.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GitHubProject.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
