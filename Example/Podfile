@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GitHubProject_Example' do
+  pod 'GitHubProject', :path => '../'
+
+  target 'GitHubProject_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
