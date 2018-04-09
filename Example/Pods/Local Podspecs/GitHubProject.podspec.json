@@ -1,0 +1,22 @@
+{
+  "name": "GitHubProject",
+  "version": "0.1.0",
+  "summary": "A short description of GitHubProject.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/defuliu/GitHubProject",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "defuliu": "liudefu@china.zhaogang.com"
+  },
+  "source": {
+    "git": "https://github.com/defuliu/GitHubProject.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GitHubProject/Classes/**/*"
+}
