@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GitHubProject'
-  s.version          = '0.1.6'
+  s.version          = '0.1.8'
   s.summary          = 'A short description of GitHubProject.'
 
 # This description is used to generate tags and improve search results.
@@ -28,17 +28,16 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  #s.source_files = 'GitHubProject/Classes/**/*'
-  s.subspec 'ZGDB' do |zgdb|
-   zgdb.source_files = 'GitHubProject/Classes/Zgdb/**/*.{swift,h,m,c}'
-   zgdb.public_header_files = 'FMDB.h'
-   #zgdb.dependency 'FMDB'
+#s.source_files = 'GitHubProject/Classes/ZGDB/FMDB.h'
+  s.subspec 'ZGDB' do |z|
+   z.source_files = 'GitHubProject/Classes/ZGDB/**/*.{swift,h,m,c}'
+
   end
-  
+  s.dependency 'FMDB'
   # s.resource_bundles = {
   #   'GitHubProject' => ['GitHubProject/Assets/*.png']
   # }
-    s.dependency 'FMDB'
+  
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
