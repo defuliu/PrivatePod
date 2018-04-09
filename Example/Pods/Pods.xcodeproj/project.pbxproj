@@ -7,71 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00576D561F2C314869433D3E30E25C1C /* NSObject+ZGModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 05F75B96142A61C84BE6031C3DC32816 /* NSObject+ZGModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		02897FBCAD4345E34A50E8C5D54D1059 /* Pods-GitHubProject_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2BFEFE526FF68E19230B0E85A2AB7E3 /* Pods-GitHubProject_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 513A45582CC1C37981364FBA315FCF7A /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B4483477FCF9E425432A33CE10C524 /* UIApplication+StrictKeyWindow.m */; };
-		119016712654512121BCC143E542E7F8 /* NSCache+ZGCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1DE8C19CF7A66F61541BA58E07C691 /* NSCache+ZGCache.m */; };
-		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8DCB20D3AA0632E2B87902B461613F /* SwiftSupport.swift */; };
-		22554065FA07F1BFE5308A685394CB12 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D29643AAA2F6BE5DAFF863ADCD8D0E7A /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E353B2C72DD91DC68C00EDCEB0B77D2 /* Pods-GitHubProject_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD86B715B5275202000133330316B53C /* Pods-GitHubProject_Example-dummy.m */; };
-		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = A605C61A2B5565003E1AB7BF8826B34B /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 5382D4B04D19DA7DAD13D676D70E00EA /* UIImage+Diff.m */; };
-		37F097E2269EF1BD238AD7449D796445 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE3C8AB0E965F1A48BE1A6B688CAB75 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3A66724226D0FFA561865524703B4BF2 /* ZGDBModelInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8365A6A5D9DB155BB12AEAEDD72906 /* ZGDBModelInfo.m */; };
-		3E43906B70EB01C06F3AE17008B853B9 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 57FDD1F7051BA480DBFE8F3F6F9D19F9 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40E7447584B0742558BE135A384A39AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C00DA47C8EFD3BD11A6CF85E1C5052 /* Foundation.framework */; };
-		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A57DE43C578142DDCF8ADD95C3499FB /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		47FB530ED74291E382142019E9CB3FBE /* GitHubProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3C9D6986854ED20362135A7AFD21D8C /* GitHubProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE3056627912ABF6098613525948EC /* FBSnapshotTestCase-dummy.m */; };
-		5B5A60B7E68DDEA760B2D1B4DA4AD483 /* ZGDBTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 58F02C662097CC896D6FC7D284560A7E /* ZGDBTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BF8E302E40D15ACB40DC68693C6443E /* ZGMainDB.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AE84441873CA83725841DF3284B87E /* ZGMainDB.m */; };
-		5FB71459342F951F86322C988EED49ED /* ZGDBModelInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D1786EB5555ED68B750649D67B3381 /* ZGDBModelInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		079B52BC9FB63DD8F80AEE9EB1235DEC /* GitHubProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4FFFC603B3F95E5075F43F026ECAC9 /* GitHubProject-dummy.m */; };
+		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
+		0A61FF14586AE31374A76D44133B1A7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		0FC91228406BF4ABCB85803F3176EE42 /* ZGDBModelInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = A532059CE9284DF0474FF6ABC30A71DB /* ZGDBModelInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		120C37AA4ECD1141D883C1687884937D /* NSObject+ZGModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D48B2701FF7BA1BEBC259312A01648 /* NSObject+ZGModel.m */; };
+		19A108B542A8D194BB27511E9E03F43E /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 281F44114868ECF18F6205E8DFECEB3D /* FMDatabasePool.m */; };
+		1A0541A41AAC37BDEB4ABE8734A23794 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C43B6951648918BC6B218F508BA2429 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
+		1FC3B7E53AA5C4A4EDA67B0085F8F64D /* ZGMainDB.h in Headers */ = {isa = PBXBuildFile; fileRef = A881DC4EEA52F23E427B74595F3EF4CF /* ZGMainDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28FACC0F8B521138CA0089D7DDC62B77 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 22471B88099A203EC83DF105D29CB20D /* FMDatabase.m */; };
+		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
+		382D8CB34F5F056AA94A60AB34EF7B2F /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9947E44C99EAA8418161A0FC8BDB0356 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
+		52FDFB04A7BB92D39983670E7448D5E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		62C73EFB04DA5CAEE63BE2F6FB8D1A38 /* Pods-GitHubProject_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 290D6554D0795E45D9B8B77909E6E37D /* Pods-GitHubProject_Tests-dummy.m */; };
-		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BC7AED71850D83C50E4AE9D29220AA /* UIImage+Compare.m */; };
-		72563ADE99DC9E753B27D48B16AA3654 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C00DA47C8EFD3BD11A6CF85E1C5052 /* Foundation.framework */; };
-		7437EBAD7876A59200EBEBE34BA83654 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C00DA47C8EFD3BD11A6CF85E1C5052 /* Foundation.framework */; };
-		753301F2EF1AC35A92C53B30F355BCB7 /* NSObject+ZGModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B41C228C0816B3414454E26512EA33D /* NSObject+ZGModel.m */; };
-		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EE84113D0A24E7CDF946C22FC55278 /* UIImage+Snapshot.m */; };
-		7CF37A9C3079AD9BBF34C3763C3AD8B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C00DA47C8EFD3BD11A6CF85E1C5052 /* Foundation.framework */; };
-		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A24750A9BAB6EFA9DA7DCDCFC4FF71 /* XCTest.framework */; };
-		8281AE6C7C22E3FD82B213C5813F9C53 /* GitHubProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C5196D64C8051557D1F7E4C4B0CEB7 /* GitHubProject-dummy.m */; };
-		83771FAA0B6CD1C8F1F3BD5127F0EC5A /* Pods-GitHubProject_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7194E0411C4E41D2EBF1F960E1AB5193 /* Pods-GitHubProject_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66A4A1AA819FAC2874A0528F7554563 /* UIKit.framework */; };
-		87ECA447DB887426665260651B7F147E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E3B6B5C05A7204AADA6F895EDF2D36 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C00DA47C8EFD3BD11A6CF85E1C5052 /* Foundation.framework */; };
-		929260A7A94D52220EC0EB290F26D890 /* NSCache+ZGCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FC72EF632AC12C62519DB99FE63DFEDB /* NSCache+ZGCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE0D405B39E368F81F47676D963DD89 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96E70B43FC04BC99AED1BBD4FB1D7581 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A1BFA59F3A4AC004179C5DB0758001 /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B8D84996694C541CD3434386E0A081A /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A46FFC138EF902FAD8CAF878E51430C /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C11A290C9C5866A185A54F1EC04E2BB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BA970E21B8CBFFF41CC63C1ADC598417 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A1B5D80A8998311B8C9043E6942925E6 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 305D699F59F61E12A095D9C90D52E222 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB304DAFDBA5C0A4D923C5E91275D484 /* FBSnapshotTestController.m */; };
-		A548833BE5FAD40830428F36E77D0F52 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D49AABCC4BA40ED36811849714701FF6 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABA0CFB3D7DB769B0B1B6AE51A7EAA8B /* ZGMainDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EBB69552A5DF5BFCE7ACB0CDD26BC4B /* ZGMainDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9988121A5279176B6A2049B9BCF124 /* QuartzCore.framework */; };
-		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1D110B15E1E05CCD03CD47E26BF0B6C /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C08E7A70A540F1655F7A8C8B7D861D3 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BCC79BA1914C927490EDB71A987FAC99 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B34BFDA8264357B0F41DEAA4AE507C0E /* FMDB.framework */; };
-		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C356BE1C7FCBE1E8F3B45049FBF24 /* FBSnapshotTestCase.m */; };
-		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 138248B67482636C1DFF47967BA8E171 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C605A44DF96E7FCACF7D6E37B62F795D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = E3AF7871D6B64FF1C571C487EF679ED5 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 0763047D3229682A81604F2DB70545FB /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		CCB74062CE0F4B8E5B7483599BC398DA /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E181F8EA0D8FC019AAFC74A536E84E3 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5991941DC41DDDDDACAE0B5D47A4639 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE33FE6D1AF5833EADD403A038A49BE /* FMDB-dummy.m */; };
-		D7720811F01492F6BA398A5403052507 /* ZGDBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EB766B6AC246042D2ED8A5151AAAAC /* ZGDBTool.m */; };
-		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = CC82A9C3AE2CA378C5D54588FF253647 /* FBSnapshotTestCasePlatform.m */; };
-		F11FAB91014130EE233A3429439D38D7 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F8BD1FDEADA0BA4A4DE339B98C092A4 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F36EF0F4568B6BB36D015F7ED5167680 /* ZGFMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C8011BB8B83EBEE61EF0029F8850EA8 /* ZGFMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA258190E1A3D6D3A1A6067E554FB453 /* ZGFMDBConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = E45401DFB80C2853C7D840CE28F84A19 /* ZGFMDBConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		635FC05510A74FCF21FA6322CB00A75D /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FB24CE836031F8E1B2BC641597472F /* FMDatabaseQueue.m */; };
+		67A5D2A020D232746670D11927A95E7F /* Pods-GitHubProject_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7194E0411C4E41D2EBF1F960E1AB5193 /* Pods-GitHubProject_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67C17E4105E393B2AC4681A578BFBB7E /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C49CE392B07EC682470228A37B0B3C /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		687961BB4E8EA3A4FA0E03EA5DE402E9 /* ZGMainDB.m in Sources */ = {isa = PBXBuildFile; fileRef = D676EB7957E0E3C70B5036CE22622736 /* ZGMainDB.m */; };
+		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
+		739E97EDF3088F98BE7BA6D10F50260B /* ZGDBModelInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7CE86778CA702FCCF86930AFF8277A /* ZGDBModelInfo.m */; };
+		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
+		779C9E567C1A9F13491DCD54D1D7CCF6 /* NSObject+ZGModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AE90E6C82432447A42AE52E1C1BD2A57 /* NSObject+ZGModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CF37A9C3079AD9BBF34C3763C3AD8B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
+		81C592D4B8DC10BA14660242EDB56E8C /* ZGDBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FE49863673E8692B80291A042BC26C6C /* ZGDBTool.m */; };
+		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
+		8829B1E1D21904B374A2BC497BF1479C /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3827E29A292211823C3BC586C51DC70C /* FMDatabaseAdditions.m */; };
+		893B3B0454BD2E4B96C81047428989EE /* NSCache+ZGCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FA1102BE8FD3ABF3B1ACCFD715DE2B /* NSCache+ZGCache.m */; };
+		8F134E3BCD439558DBD3F6647FD041E8 /* NSCache+ZGCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 215E938965F95502E8D105B9D5E54C1E /* NSCache+ZGCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96EF6284C93EC87DDF4666EFAC1868CF /* GitHubProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 729B49A54A8609E456781F39AC495408 /* GitHubProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
+		A528F51D0029A0A861E81FD3F9F66C6D /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E928EC0062DC320A690679C4C17E111 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADFF4346580406758470779785174DEE /* ZGFMDBConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF8034DFAB5B5BE92F19F17C7524A1A /* ZGFMDBConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27810809BAD71E4022600B21251449F /* QuartzCore.framework */; };
+		B420B762646E01363F542C008C3BAE24 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 722FFDE9BF1FE4DC5B4DDF7982B9DD1B /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B471ADDE37E2D0EA773D8440133F8277 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4C5468CF2A6D3656CB80AD1AD0D5A5 /* FMResultSet.m */; };
+		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
+		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C84437DB16514FD05D026EAC79E217BD /* Pods-GitHubProject_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD86B715B5275202000133330316B53C /* Pods-GitHubProject_Example-dummy.m */; };
+		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CBD6A2C0B70F6A63760B763E54F28A4F /* ZGDBTool.h in Headers */ = {isa = PBXBuildFile; fileRef = A206C641B4602E454FB66054DC2799A8 /* ZGDBTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
+		DC7ABC6B6C5C9FC480C5FB728452558F /* ZGFMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = FD054EE220D7606642CD83EB3E391B5B /* ZGFMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF904C13E0539C6BA0225A4F425D605B /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3993AB691F2CB85DDC4F13F021CA6AC0 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		53B059545930E1BEC917A4D8F0D499F3 /* PBXContainerItemProxy */ = {
+		2E44176B835C78559619F25C06535B4D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 118A1E7C8FF3F7A1DD915126AD4511D9;
+			remoteGlobalIDString = 856F36236C70060763149645387C6A19;
 			remoteInfo = GitHubProject;
 		};
 		6CED4054824ED374ACBD908046FB01F2 /* PBXContainerItemProxy */ = {
@@ -81,116 +77,102 @@
 			remoteGlobalIDString = 34CD2E3428AB802BACA62286FF5074B1;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		73329110BD7555CF3D1BA71CF997D8FD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 251BAD17812F7EBF6532EACF66F941C3;
-			remoteInfo = FMDB;
-		};
-		CD7920BC65FA6480E315B52F1F6E4296 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 251BAD17812F7EBF6532EACF66F941C3;
-			remoteInfo = FMDB;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02BC7AED71850D83C50E4AE9D29220AA /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		04CE3056627912ABF6098613525948EC /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		05F75B96142A61C84BE6031C3DC32816 /* NSObject+ZGModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+ZGModel.h"; path = "GitHubProject/Classes/ZGDB/NSObject+ZGModel.h"; sourceTree = "<group>"; };
-		0763047D3229682A81604F2DB70545FB /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		0A46FFC138EF902FAD8CAF878E51430C /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
-		138248B67482636C1DFF47967BA8E171 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		139D97A62049F9C19EF31B2B40E70260 /* GitHubProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GitHubProject.xcconfig; sourceTree = "<group>"; };
-		17C5196D64C8051557D1F7E4C4B0CEB7 /* GitHubProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GitHubProject-dummy.m"; sourceTree = "<group>"; };
+		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		18CA694A2F539B210344732D3C3F6065 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B27B88BC4D8A77D3D079D0BB2FD4CF9 /* Pods-GitHubProject_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GitHubProject_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		1B8365A6A5D9DB155BB12AEAEDD72906 /* ZGDBModelInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGDBModelInfo.m; path = GitHubProject/Classes/ZGDB/ZGDBModelInfo.m; sourceTree = "<group>"; };
+		1D7CE86778CA702FCCF86930AFF8277A /* ZGDBModelInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGDBModelInfo.m; path = GitHubProject/Classes/ZGDB/ZGDBModelInfo.m; sourceTree = "<group>"; };
+		215E938965F95502E8D105B9D5E54C1E /* NSCache+ZGCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCache+ZGCache.h"; path = "GitHubProject/Classes/ZGDB/NSCache+ZGCache.h"; sourceTree = "<group>"; };
 		21DDDB2A7ED0899936C0686ED055C11C /* Pods-GitHubProject_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GitHubProject_Tests.modulemap"; sourceTree = "<group>"; };
+		22471B88099A203EC83DF105D29CB20D /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = GitHubProject/Classes/FMDB/FMDatabase.m; sourceTree = "<group>"; };
+		281F44114868ECF18F6205E8DFECEB3D /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = GitHubProject/Classes/FMDB/FMDatabasePool.m; sourceTree = "<group>"; };
 		290D6554D0795E45D9B8B77909E6E37D /* Pods-GitHubProject_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GitHubProject_Tests-dummy.m"; sourceTree = "<group>"; };
-		2C1480175EAC2F1C46F3B9DFF7DC129E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C8011BB8B83EBEE61EF0029F8850EA8 /* ZGFMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGFMDB.h; path = GitHubProject/Classes/ZGDB/ZGFMDB.h; sourceTree = "<group>"; };
-		2E181F8EA0D8FC019AAFC74A536E84E3 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
-		2F8BD1FDEADA0BA4A4DE339B98C092A4 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
-		300E886661BEF53EA9C452831D3A3C4C /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		305D699F59F61E12A095D9C90D52E222 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
-		311A1FC756CA8816D67DE959D9619BBE /* GitHubProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GitHubProject.modulemap; sourceTree = "<group>"; };
-		36A24750A9BAB6EFA9DA7DCDCFC4FF71 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		3827E29A292211823C3BC586C51DC70C /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = GitHubProject/Classes/FMDB/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		3993AB691F2CB85DDC4F13F021CA6AC0 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = GitHubProject/Classes/FMDB/FMDatabase.h; sourceTree = "<group>"; };
+		3A4FFFC603B3F95E5075F43F026ECAC9 /* GitHubProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GitHubProject-dummy.m"; sourceTree = "<group>"; };
+		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3AE8400EE2FFE9131269E5C767088ED4 /* Pods-GitHubProject_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GitHubProject_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3B41C228C0816B3414454E26512EA33D /* NSObject+ZGModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ZGModel.m"; path = "GitHubProject/Classes/ZGDB/NSObject+ZGModel.m"; sourceTree = "<group>"; };
+		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		3C1B761AB0E0A096E297D2FF9F9ADA65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3D41B353086413337BD54158C7D63455 /* Pods_GitHubProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GitHubProject_Tests.framework; path = "Pods-GitHubProject_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		3E6E20BEE8B2CEF8BE9A0476BD307FD2 /* Pods-GitHubProject_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GitHubProject_Example-resources.sh"; sourceTree = "<group>"; };
+		41D2C800EDD16107EBD260E838758645 /* GitHubProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GitHubProject.xcconfig; sourceTree = "<group>"; };
 		429CB8AA9EAB6A39620A41EFC0692980 /* Pods-GitHubProject_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GitHubProject_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		46DD78D4FBC0E9F8361986B232600676 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		513A45582CC1C37981364FBA315FCF7A /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		52B4483477FCF9E425432A33CE10C524 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		5382D4B04D19DA7DAD13D676D70E00EA /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		55E3B6B5C05A7204AADA6F895EDF2D36 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
-		57FDD1F7051BA480DBFE8F3F6F9D19F9 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		4EA1653B426B097B0D5136C5B2EE2B23 /* Pods_GitHubProject_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GitHubProject_Example.framework; path = "Pods-GitHubProject_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		58C29D474A2E68BFB1DCAC572E78C536 /* Pods-GitHubProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GitHubProject_Example.release.xcconfig"; sourceTree = "<group>"; };
-		58F02C662097CC896D6FC7D284560A7E /* ZGDBTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGDBTool.h; path = GitHubProject/Classes/ZGDB/ZGDBTool.h; sourceTree = "<group>"; };
 		5C05118F8809E58C77B6D6E0C94B6A98 /* Pods-GitHubProject_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GitHubProject_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5C08E7A70A540F1655F7A8C8B7D861D3 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		5DCC77A15C355540447F32AE778AD856 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		5E12886E3E9FC7839DD54F404C2489EC /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		62D31D8E3B2C64C360DE2FFB1E9DD917 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		63EE84113D0A24E7CDF946C22FC55278 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		685AAC9723D91F0C662A543DEC62F4B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C43B6951648918BC6B218F508BA2429 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = GitHubProject/Classes/FMDB/FMResultSet.h; sourceTree = "<group>"; };
+		6C4C5468CF2A6D3656CB80AD1AD0D5A5 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = GitHubProject/Classes/FMDB/FMResultSet.m; sourceTree = "<group>"; };
 		6DFBFAA1AE5845310B7841CF7F22CA68 /* Pods-GitHubProject_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GitHubProject_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6F9C356BE1C7FCBE1E8F3B45049FBF24 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		6FE3C8AB0E965F1A48BE1A6B688CAB75 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
 		7194E0411C4E41D2EBF1F960E1AB5193 /* Pods-GitHubProject_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GitHubProject_Example-umbrella.h"; sourceTree = "<group>"; };
-		72128ED07D831BAB8F6656EE3AC17099 /* GitHubProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GitHubProject-prefix.pch"; sourceTree = "<group>"; };
+		722FFDE9BF1FE4DC5B4DDF7982B9DD1B /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = GitHubProject/Classes/FMDB/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		729B49A54A8609E456781F39AC495408 /* GitHubProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GitHubProject-umbrella.h"; sourceTree = "<group>"; };
+		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		7B66E61FBBB00E3EBB53B09F744252EE /* Pods-GitHubProject_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GitHubProject_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7CE33FE6D1AF5833EADD403A038A49BE /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
-		82EB766B6AC246042D2ED8A5151AAAAC /* ZGDBTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGDBTool.m; path = GitHubProject/Classes/ZGDB/ZGDBTool.m; sourceTree = "<group>"; };
-		86A1BFA59F3A4AC004179C5DB0758001 /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
-		8A57DE43C578142DDCF8ADD95C3499FB /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		8B9988121A5279176B6A2049B9BCF124 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		92AE0FB1F283FE1A2BDEDF5D6CA63247 /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMDB.modulemap; sourceTree = "<group>"; };
+		7BF8034DFAB5B5BE92F19F17C7524A1A /* ZGFMDBConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGFMDBConfig.h; path = GitHubProject/Classes/ZGDB/ZGFMDBConfig.h; sourceTree = "<group>"; };
+		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		8E928EC0062DC320A690679C4C17E111 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = GitHubProject/Classes/FMDB/FMDatabaseAdditions.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94F67285A298E259CC4A923472EB4ECD /* GitHubProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GitHubProject.modulemap; sourceTree = "<group>"; };
 		9638F0CFBDDC2D5ADF07C7DED408AD54 /* Pods-GitHubProject_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GitHubProject_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9EBB69552A5DF5BFCE7ACB0CDD26BC4B /* ZGMainDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGMainDB.h; path = GitHubProject/Classes/ZGDB/ZGMainDB.h; sourceTree = "<group>"; };
-		A1D110B15E1E05CCD03CD47E26BF0B6C /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		96FA1102BE8FD3ABF3B1ACCFD715DE2B /* NSCache+ZGCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCache+ZGCache.m"; path = "GitHubProject/Classes/ZGDB/NSCache+ZGCache.m"; sourceTree = "<group>"; };
+		97938549DFE26FDB6253215B88966F25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9947E44C99EAA8418161A0FC8BDB0356 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = GitHubProject/Classes/FMDB/FMDatabasePool.h; sourceTree = "<group>"; };
+		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		A1C49CE392B07EC682470228A37B0B3C /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = GitHubProject/Classes/FMDB/FMDB.h; sourceTree = "<group>"; };
+		A206C641B4602E454FB66054DC2799A8 /* ZGDBTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGDBTool.h; path = GitHubProject/Classes/ZGDB/ZGDBTool.h; sourceTree = "<group>"; };
+		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A2D48B2701FF7BA1BEBC259312A01648 /* NSObject+ZGModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ZGModel.m"; path = "GitHubProject/Classes/ZGDB/NSObject+ZGModel.m"; sourceTree = "<group>"; };
 		A35691A9C9DE4594A8E196E8532EF218 /* Pods-GitHubProject_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GitHubProject_Tests-resources.sh"; sourceTree = "<group>"; };
-		A605C61A2B5565003E1AB7BF8826B34B /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		A6D1786EB5555ED68B750649D67B3381 /* ZGDBModelInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGDBModelInfo.h; path = GitHubProject/Classes/ZGDB/ZGDBModelInfo.h; sourceTree = "<group>"; };
-		A86FF5B38144D9F5A652E62B3D067170 /* Pods_GitHubProject_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GitHubProject_Example.framework; path = "Pods-GitHubProject_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAE0D405B39E368F81F47676D963DD89 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		A532059CE9284DF0474FF6ABC30A71DB /* ZGDBModelInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGDBModelInfo.h; path = GitHubProject/Classes/ZGDB/ZGDBModelInfo.h; sourceTree = "<group>"; };
+		A881DC4EEA52F23E427B74595F3EF4CF /* ZGMainDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGMainDB.h; path = GitHubProject/Classes/ZGDB/ZGMainDB.h; sourceTree = "<group>"; };
+		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		ACEEAC9FF1F77230F081C5E6914F6F1D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0D849EDD21C30278ACF861EF7AF8672 /* GitHubProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GitHubProject.framework; path = GitHubProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC09A392B9CA27EA64F2D25726115C4 /* GitHubProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GitHubProject.framework; path = GitHubProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE90E6C82432447A42AE52E1C1BD2A57 /* NSObject+ZGModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+ZGModel.h"; path = "GitHubProject/Classes/ZGDB/NSObject+ZGModel.h"; sourceTree = "<group>"; };
 		B2885276222484C8C224837120AEE823 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B34BFDA8264357B0F41DEAA4AE507C0E /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA970E21B8CBFFF41CC63C1ADC598417 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		BB304DAFDBA5C0A4D923C5E91275D484 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		C0AE84441873CA83725841DF3284B87E /* ZGMainDB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGMainDB.m; path = GitHubProject/Classes/ZGDB/ZGMainDB.m; sourceTree = "<group>"; };
-		C120DEA0D835B3E2FE781FED5B28DD38 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
-		C636B5CE30775C8FDE98C3941ABBA9C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		C657AD9E871707C37D5158DFC78C03A3 /* GitHubProject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GitHubProject.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C66A4A1AA819FAC2874A0528F7554563 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		CC82A9C3AE2CA378C5D54588FF253647 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		B6AA72A95E85D170321CBDD8838950C7 /* GitHubProject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GitHubProject.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CD86B715B5275202000133330316B53C /* Pods-GitHubProject_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GitHubProject_Example-dummy.m"; sourceTree = "<group>"; };
-		D29643AAA2F6BE5DAFF863ADCD8D0E7A /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
-		D41D162534421AC003521E6C0A989715 /* Pods_GitHubProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GitHubProject_Tests.framework; path = "Pods-GitHubProject_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D49AABCC4BA40ED36811849714701FF6 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		D676EB7957E0E3C70B5036CE22622736 /* ZGMainDB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGMainDB.m; path = GitHubProject/Classes/ZGDB/ZGMainDB.m; sourceTree = "<group>"; };
+		D6F43D6C9BFED8EC6658D0735C80C9B9 /* GitHubProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GitHubProject-prefix.pch"; sourceTree = "<group>"; };
 		D860B0B3BD3B85CFA92A9A29F438A17C /* Pods-GitHubProject_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GitHubProject_Example.modulemap"; sourceTree = "<group>"; };
-		DB8DCB20D3AA0632E2B87902B461613F /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		DD0F985EDD1DF7C377AD000B4B9DF402 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
-		DF1DE8C19CF7A66F61541BA58E07C691 /* NSCache+ZGCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCache+ZGCache.m"; path = "GitHubProject/Classes/ZGDB/NSCache+ZGCache.m"; sourceTree = "<group>"; };
+		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		E0FB24CE836031F8E1B2BC641597472F /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = GitHubProject/Classes/FMDB/FMDatabaseQueue.m; sourceTree = "<group>"; };
 		E2BFEFE526FF68E19230B0E85A2AB7E3 /* Pods-GitHubProject_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GitHubProject_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E3AF7871D6B64FF1C571C487EF679ED5 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
-		E3C9D6986854ED20362135A7AFD21D8C /* GitHubProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GitHubProject-umbrella.h"; sourceTree = "<group>"; };
+		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		E3D4E9D532A314E006E608DAC4F74AC9 /* Pods-GitHubProject_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GitHubProject_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E45401DFB80C2853C7D840CE28F84A19 /* ZGFMDBConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGFMDBConfig.h; path = GitHubProject/Classes/ZGDB/ZGFMDBConfig.h; sourceTree = "<group>"; };
-		E50853785C1C3A88E038F3BA8889DE45 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E7C00DA47C8EFD3BD11A6CF85E1C5052 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		F0820F112F4B7A6BCC5341AF5123EBFD /* Pods-GitHubProject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GitHubProject_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F961DBCA4258B1262D7490E2C4A158AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC72EF632AC12C62519DB99FE63DFEDB /* NSCache+ZGCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCache+ZGCache.h"; path = "GitHubProject/Classes/ZGDB/NSCache+ZGCache.h"; sourceTree = "<group>"; };
+		F09D943FAAB6F9A14AC54A3779CCF7EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		FD054EE220D7606642CD83EB3E391B5B /* ZGFMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGFMDB.h; path = GitHubProject/Classes/ZGDB/ZGFMDB.h; sourceTree = "<group>"; };
+		FE49863673E8692B80291A042BC26C6C /* ZGDBTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGDBTool.m; path = GitHubProject/Classes/ZGDB/ZGDBTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0C86E17DDE233C2E0C342764CA15751A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A61FF14586AE31374A76D44133B1A7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -210,50 +192,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55267187B453EDFBF46956C0526EB27E /* Frameworks */ = {
+		9272177E63CD1A5506E6FB6CEA69EB2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCC79BA1914C927490EDB71A987FAC99 /* FMDB.framework in Frameworks */,
-				7437EBAD7876A59200EBEBE34BA83654 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CDBC1AC83F2136DD5B0EB3054E38BD1D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				40E7447584B0742558BE135A384A39AD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EEFB61A65EB8DA6653B544822EB9CE44 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				72563ADE99DC9E753B27D48B16AA3654 /* Foundation.framework in Frameworks */,
+				52FDFB04A7BB92D39983670E7448D5E1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04849C4DCDDAFEA106C335856BA4F1BD /* Development Pods */ = {
+		0ED2B855B464C14733925DACD8912998 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				59F8E140410C9EA83DF9BA4AA83CB275 /* GitHubProject */,
+				94F67285A298E259CC4A923472EB4ECD /* GitHubProject.modulemap */,
+				41D2C800EDD16107EBD260E838758645 /* GitHubProject.xcconfig */,
+				3A4FFFC603B3F95E5075F43F026ECAC9 /* GitHubProject-dummy.m */,
+				D6F43D6C9BFED8EC6658D0735C80C9B9 /* GitHubProject-prefix.pch */,
+				729B49A54A8609E456781F39AC495408 /* GitHubProject-umbrella.h */,
+				97938549DFE26FDB6253215B88966F25 /* Info.plist */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GitHubProject";
 			sourceTree = "<group>";
 		};
-		244FDF3359B88235E0B546A41071515B /* Pod */ = {
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C657AD9E871707C37D5158DFC78C03A3 /* GitHubProject.podspec */,
-				E50853785C1C3A88E038F3BA8889DE45 /* LICENSE */,
-				C636B5CE30775C8FDE98C3941ABBA9C9 /* README.md */,
+				8D22B0D091B0427E43C82354D9CA8E06 /* iOS */,
 			);
-			name = Pod;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				F35791481CAFDD8E7715AE1B44687328 /* Core */,
+				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
+				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
 		24A1606EE1889E0D808FF838BA0AF0E2 /* Targets Support Files */ = {
@@ -265,104 +245,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		24D2F67CB22186B7E80841B728296EFE /* Support Files */ = {
+		3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				311A1FC756CA8816D67DE959D9619BBE /* GitHubProject.modulemap */,
-				139D97A62049F9C19EF31B2B40E70260 /* GitHubProject.xcconfig */,
-				17C5196D64C8051557D1F7E4C4B0CEB7 /* GitHubProject-dummy.m */,
-				72128ED07D831BAB8F6656EE3AC17099 /* GitHubProject-prefix.pch */,
-				E3C9D6986854ED20362135A7AFD21D8C /* GitHubProject-umbrella.h */,
-				685AAC9723D91F0C662A543DEC62F4B3 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GitHubProject";
-			sourceTree = "<group>";
-		};
-		35400B176BA7B96A379927A88CC427D5 /* FMDB */ = {
-			isa = PBXGroup;
-			children = (
-				E8CFF011227B43C994AB39FC849A11CE /* standard */,
-				D5775F799DFC6235927F5E6A601D0ABF /* Support Files */,
-			);
-			name = FMDB;
-			path = FMDB;
-			sourceTree = "<group>";
-		};
-		500F002DB9FD42E18EA589B777BF07F3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				46DD78D4FBC0E9F8361986B232600676 /* FBSnapshotTestCase.modulemap */,
-				300E886661BEF53EA9C452831D3A3C4C /* FBSnapshotTestCase.xcconfig */,
-				04CE3056627912ABF6098613525948EC /* FBSnapshotTestCase-dummy.m */,
-				5DCC77A15C355540447F32AE778AD856 /* FBSnapshotTestCase-prefix.pch */,
-				A1D110B15E1E05CCD03CD47E26BF0B6C /* FBSnapshotTestCase-umbrella.h */,
-				F961DBCA4258B1262D7490E2C4A158AD /* Info.plist */,
+				F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */,
+				7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */,
+				4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */,
+				EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */,
+				A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */,
+				67E276593855381568F725E69496F29C /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		59F8E140410C9EA83DF9BA4AA83CB275 /* GitHubProject */ = {
-			isa = PBXGroup;
-			children = (
-				244FDF3359B88235E0B546A41071515B /* Pod */,
-				24D2F67CB22186B7E80841B728296EFE /* Support Files */,
-				5BCE9377CB381B13F8267A41CC55DC45 /* ZGDB */,
-			);
-			name = GitHubProject;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		5BCE9377CB381B13F8267A41CC55DC45 /* ZGDB */ = {
-			isa = PBXGroup;
-			children = (
-				FC72EF632AC12C62519DB99FE63DFEDB /* NSCache+ZGCache.h */,
-				DF1DE8C19CF7A66F61541BA58E07C691 /* NSCache+ZGCache.m */,
-				05F75B96142A61C84BE6031C3DC32816 /* NSObject+ZGModel.h */,
-				3B41C228C0816B3414454E26512EA33D /* NSObject+ZGModel.m */,
-				A6D1786EB5555ED68B750649D67B3381 /* ZGDBModelInfo.h */,
-				1B8365A6A5D9DB155BB12AEAEDD72906 /* ZGDBModelInfo.m */,
-				58F02C662097CC896D6FC7D284560A7E /* ZGDBTool.h */,
-				82EB766B6AC246042D2ED8A5151AAAAC /* ZGDBTool.m */,
-				2C8011BB8B83EBEE61EF0029F8850EA8 /* ZGFMDB.h */,
-				E45401DFB80C2853C7D840CE28F84A19 /* ZGFMDBConfig.h */,
-				9EBB69552A5DF5BFCE7ACB0CDD26BC4B /* ZGMainDB.h */,
-				C0AE84441873CA83725841DF3284B87E /* ZGMainDB.m */,
-			);
-			name = ZGDB;
-			sourceTree = "<group>";
-		};
-		7714A82290BBECDB5FA0D91AF527AD2C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				E7C00DA47C8EFD3BD11A6CF85E1C5052 /* Foundation.framework */,
-				8B9988121A5279176B6A2049B9BCF124 /* QuartzCore.framework */,
-				C66A4A1AA819FAC2874A0528F7554563 /* UIKit.framework */,
-				36A24750A9BAB6EFA9DA7DCDCFC4FF71 /* XCTest.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				04849C4DCDDAFEA106C335856BA4F1BD /* Development Pods */,
-				F55A2905C8C8C6335062DB6335E3E48D /* Frameworks */,
-				8531E39941EBA0FB69A89B3E9BAD516D /* Pods */,
-				B1CF94EFBEBED0422B1EF07EDCAA7A9A /* Products */,
+				E5919994DA098005EABAE639407805A1 /* Development Pods */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
+				C4AE05406C67C0B7CAAABB5E9A9F63DD /* Products */,
 				24A1606EE1889E0D808FF838BA0AF0E2 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8531E39941EBA0FB69A89B3E9BAD516D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9570BD52872F1617DEDC20289AEC5F59 /* FBSnapshotTestCase */,
-				35400B176BA7B96A379927A88CC427D5 /* FMDB */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		8ABB4CBDDC9794758785144293C3CB28 /* Pods-GitHubProject_Tests */ = {
@@ -383,36 +289,23 @@
 			path = "Target Support Files/Pods-GitHubProject_Tests";
 			sourceTree = "<group>";
 		};
-		9570BD52872F1617DEDC20289AEC5F59 /* FBSnapshotTestCase */ = {
+		8D22B0D091B0427E43C82354D9CA8E06 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				96F371EE0E5E0AD999B61BD2D20A488C /* Core */,
-				500F002DB9FD42E18EA589B777BF07F3 /* Support Files */,
-				BA110F31A0B326F4C4B7410052DC4E55 /* SwiftSupport */,
+				C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */,
+				A27810809BAD71E4022600B21251449F /* QuartzCore.framework */,
+				AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */,
+				3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */,
 			);
-			name = FBSnapshotTestCase;
-			path = FBSnapshotTestCase;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		96F371EE0E5E0AD999B61BD2D20A488C /* Core */ = {
+		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
-				AAE0D405B39E368F81F47676D963DD89 /* FBSnapshotTestCase.h */,
-				6F9C356BE1C7FCBE1E8F3B45049FBF24 /* FBSnapshotTestCase.m */,
-				138248B67482636C1DFF47967BA8E171 /* FBSnapshotTestCasePlatform.h */,
-				CC82A9C3AE2CA378C5D54588FF253647 /* FBSnapshotTestCasePlatform.m */,
-				A605C61A2B5565003E1AB7BF8826B34B /* FBSnapshotTestController.h */,
-				BB304DAFDBA5C0A4D923C5E91275D484 /* FBSnapshotTestController.m */,
-				5C08E7A70A540F1655F7A8C8B7D861D3 /* UIApplication+StrictKeyWindow.h */,
-				52B4483477FCF9E425432A33CE10C524 /* UIApplication+StrictKeyWindow.m */,
-				0763047D3229682A81604F2DB70545FB /* UIImage+Compare.h */,
-				02BC7AED71850D83C50E4AE9D29220AA /* UIImage+Compare.m */,
-				513A45582CC1C37981364FBA315FCF7A /* UIImage+Diff.h */,
-				5382D4B04D19DA7DAD13D676D70E00EA /* UIImage+Diff.m */,
-				8A57DE43C578142DDCF8ADD95C3499FB /* UIImage+Snapshot.h */,
-				63EE84113D0A24E7CDF946C22FC55278 /* UIImage+Snapshot.m */,
+				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
 			);
-			name = Core;
+			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
 		A344FC438AAE91A118D1B50F1DB90E97 /* Pods-GitHubProject_Example */ = {
@@ -433,97 +326,121 @@
 			path = "Target Support Files/Pods-GitHubProject_Example";
 			sourceTree = "<group>";
 		};
-		B1CF94EFBEBED0422B1EF07EDCAA7A9A /* Products */ = {
+		A76EFAABA08A07C36D65045968513CE9 /* GitHubProject */ = {
 			isa = PBXGroup;
 			children = (
-				62D31D8E3B2C64C360DE2FFB1E9DD917 /* FBSnapshotTestCase.framework */,
-				5E12886E3E9FC7839DD54F404C2489EC /* FMDB.framework */,
-				B0D849EDD21C30278ACF861EF7AF8672 /* GitHubProject.framework */,
-				A86FF5B38144D9F5A652E62B3D067170 /* Pods_GitHubProject_Example.framework */,
-				D41D162534421AC003521E6C0A989715 /* Pods_GitHubProject_Tests.framework */,
+				EAC6A6DF7BC2A9DD904AC6CB978FC11C /* FMDB */,
+				F3A1418ADBF408DB0C32CE8780DECB98 /* Pod */,
+				0ED2B855B464C14733925DACD8912998 /* Support Files */,
+				C541083B3DD351544D58559D85292609 /* ZGDB */,
+			);
+			name = GitHubProject;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C4AE05406C67C0B7CAAABB5E9A9F63DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CA694A2F539B210344732D3C3F6065 /* FBSnapshotTestCase.framework */,
+				ADC09A392B9CA27EA64F2D25726115C4 /* GitHubProject.framework */,
+				4EA1653B426B097B0D5136C5B2EE2B23 /* Pods_GitHubProject_Example.framework */,
+				3D41B353086413337BD54158C7D63455 /* Pods_GitHubProject_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BA110F31A0B326F4C4B7410052DC4E55 /* SwiftSupport */ = {
+		C541083B3DD351544D58559D85292609 /* ZGDB */ = {
 			isa = PBXGroup;
 			children = (
-				DB8DCB20D3AA0632E2B87902B461613F /* SwiftSupport.swift */,
+				215E938965F95502E8D105B9D5E54C1E /* NSCache+ZGCache.h */,
+				96FA1102BE8FD3ABF3B1ACCFD715DE2B /* NSCache+ZGCache.m */,
+				AE90E6C82432447A42AE52E1C1BD2A57 /* NSObject+ZGModel.h */,
+				A2D48B2701FF7BA1BEBC259312A01648 /* NSObject+ZGModel.m */,
+				A532059CE9284DF0474FF6ABC30A71DB /* ZGDBModelInfo.h */,
+				1D7CE86778CA702FCCF86930AFF8277A /* ZGDBModelInfo.m */,
+				A206C641B4602E454FB66054DC2799A8 /* ZGDBTool.h */,
+				FE49863673E8692B80291A042BC26C6C /* ZGDBTool.m */,
+				FD054EE220D7606642CD83EB3E391B5B /* ZGFMDB.h */,
+				7BF8034DFAB5B5BE92F19F17C7524A1A /* ZGFMDBConfig.h */,
+				A881DC4EEA52F23E427B74595F3EF4CF /* ZGMainDB.h */,
+				D676EB7957E0E3C70B5036CE22622736 /* ZGMainDB.m */,
 			);
-			name = SwiftSupport;
+			name = ZGDB;
 			sourceTree = "<group>";
 		};
-		D5775F799DFC6235927F5E6A601D0ABF /* Support Files */ = {
+		E5919994DA098005EABAE639407805A1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				92AE0FB1F283FE1A2BDEDF5D6CA63247 /* FMDB.modulemap */,
-				C120DEA0D835B3E2FE781FED5B28DD38 /* FMDB.xcconfig */,
-				7CE33FE6D1AF5833EADD403A038A49BE /* FMDB-dummy.m */,
-				DD0F985EDD1DF7C377AD000B4B9DF402 /* FMDB-prefix.pch */,
-				86A1BFA59F3A4AC004179C5DB0758001 /* FMDB-umbrella.h */,
-				2C1480175EAC2F1C46F3B9DFF7DC129E /* Info.plist */,
+				A76EFAABA08A07C36D65045968513CE9 /* GitHubProject */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FMDB";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		E8CFF011227B43C994AB39FC849A11CE /* standard */ = {
+		EAC6A6DF7BC2A9DD904AC6CB978FC11C /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
-				2F8BD1FDEADA0BA4A4DE339B98C092A4 /* FMDatabase.h */,
-				6FE3C8AB0E965F1A48BE1A6B688CAB75 /* FMDatabase.m */,
-				D49AABCC4BA40ED36811849714701FF6 /* FMDatabaseAdditions.h */,
-				BA970E21B8CBFFF41CC63C1ADC598417 /* FMDatabaseAdditions.m */,
-				0A46FFC138EF902FAD8CAF878E51430C /* FMDatabasePool.h */,
-				E3AF7871D6B64FF1C571C487EF679ED5 /* FMDatabasePool.m */,
-				D29643AAA2F6BE5DAFF863ADCD8D0E7A /* FMDatabaseQueue.h */,
-				305D699F59F61E12A095D9C90D52E222 /* FMDatabaseQueue.m */,
-				2E181F8EA0D8FC019AAFC74A536E84E3 /* FMDB.h */,
-				57FDD1F7051BA480DBFE8F3F6F9D19F9 /* FMResultSet.h */,
-				55E3B6B5C05A7204AADA6F895EDF2D36 /* FMResultSet.m */,
+				3993AB691F2CB85DDC4F13F021CA6AC0 /* FMDatabase.h */,
+				22471B88099A203EC83DF105D29CB20D /* FMDatabase.m */,
+				8E928EC0062DC320A690679C4C17E111 /* FMDatabaseAdditions.h */,
+				3827E29A292211823C3BC586C51DC70C /* FMDatabaseAdditions.m */,
+				9947E44C99EAA8418161A0FC8BDB0356 /* FMDatabasePool.h */,
+				281F44114868ECF18F6205E8DFECEB3D /* FMDatabasePool.m */,
+				722FFDE9BF1FE4DC5B4DDF7982B9DD1B /* FMDatabaseQueue.h */,
+				E0FB24CE836031F8E1B2BC641597472F /* FMDatabaseQueue.m */,
+				A1C49CE392B07EC682470228A37B0B3C /* FMDB.h */,
+				6C43B6951648918BC6B218F508BA2429 /* FMResultSet.h */,
+				6C4C5468CF2A6D3656CB80AD1AD0D5A5 /* FMResultSet.m */,
 			);
-			name = standard;
+			name = FMDB;
 			sourceTree = "<group>";
 		};
-		F55A2905C8C8C6335062DB6335E3E48D /* Frameworks */ = {
+		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				B34BFDA8264357B0F41DEAA4AE507C0E /* FMDB.framework */,
-				7714A82290BBECDB5FA0D91AF527AD2C /* iOS */,
+				E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */,
+				39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */,
+				7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */,
+				58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */,
+				1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */,
+				052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */,
+				B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */,
+				2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */,
+				432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */,
+				3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */,
+				85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */,
+				B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */,
+				0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */,
+				3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */,
 			);
-			name = Frameworks;
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F3A1418ADBF408DB0C32CE8780DECB98 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B6AA72A95E85D170321CBDD8838950C7 /* GitHubProject.podspec */,
+				F09D943FAAB6F9A14AC54A3779CCF7EB /* LICENSE */,
+				3C1B761AB0E0A096E297D2FF9F9ADA65 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3D2A080C5CD4ED4520C6AEFA1D6BA26F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F11FAB91014130EE233A3429439D38D7 /* FMDatabase.h in Headers */,
-				A548833BE5FAD40830428F36E77D0F52 /* FMDatabaseAdditions.h in Headers */,
-				9B8D84996694C541CD3434386E0A081A /* FMDatabasePool.h in Headers */,
-				22554065FA07F1BFE5308A685394CB12 /* FMDatabaseQueue.h in Headers */,
-				96E70B43FC04BC99AED1BBD4FB1D7581 /* FMDB-umbrella.h in Headers */,
-				CCB74062CE0F4B8E5B7483599BC398DA /* FMDB.h in Headers */,
-				3E43906B70EB01C06F3AE17008B853B9 /* FMResultSet.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		45DE2600D64C2D9D769817A1C6FB3EAF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				02897FBCAD4345E34A50E8C5D54D1059 /* Pods-GitHubProject_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5578D9C156C8BC79771044394D64C482 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				83771FAA0B6CD1C8F1F3BD5127F0EC5A /* Pods-GitHubProject_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,59 +459,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D370669787792CE39838D24454790F92 /* Headers */ = {
+		D5913411C8029F0F93226B07DC861775 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47FB530ED74291E382142019E9CB3FBE /* GitHubProject-umbrella.h in Headers */,
-				929260A7A94D52220EC0EB290F26D890 /* NSCache+ZGCache.h in Headers */,
-				00576D561F2C314869433D3E30E25C1C /* NSObject+ZGModel.h in Headers */,
-				5FB71459342F951F86322C988EED49ED /* ZGDBModelInfo.h in Headers */,
-				5B5A60B7E68DDEA760B2D1B4DA4AD483 /* ZGDBTool.h in Headers */,
-				F36EF0F4568B6BB36D015F7ED5167680 /* ZGFMDB.h in Headers */,
-				FA258190E1A3D6D3A1A6067E554FB453 /* ZGFMDBConfig.h in Headers */,
-				ABA0CFB3D7DB769B0B1B6AE51A7EAA8B /* ZGMainDB.h in Headers */,
+				EF904C13E0539C6BA0225A4F425D605B /* FMDatabase.h in Headers */,
+				A528F51D0029A0A861E81FD3F9F66C6D /* FMDatabaseAdditions.h in Headers */,
+				382D8CB34F5F056AA94A60AB34EF7B2F /* FMDatabasePool.h in Headers */,
+				B420B762646E01363F542C008C3BAE24 /* FMDatabaseQueue.h in Headers */,
+				67C17E4105E393B2AC4681A578BFBB7E /* FMDB.h in Headers */,
+				1A0541A41AAC37BDEB4ABE8734A23794 /* FMResultSet.h in Headers */,
+				96EF6284C93EC87DDF4666EFAC1868CF /* GitHubProject-umbrella.h in Headers */,
+				8F134E3BCD439558DBD3F6647FD041E8 /* NSCache+ZGCache.h in Headers */,
+				779C9E567C1A9F13491DCD54D1D7CCF6 /* NSObject+ZGModel.h in Headers */,
+				0FC91228406BF4ABCB85803F3176EE42 /* ZGDBModelInfo.h in Headers */,
+				CBD6A2C0B70F6A63760B763E54F28A4F /* ZGDBTool.h in Headers */,
+				DC7ABC6B6C5C9FC480C5FB728452558F /* ZGFMDB.h in Headers */,
+				ADFF4346580406758470779785174DEE /* ZGFMDBConfig.h in Headers */,
+				1FC3B7E53AA5C4A4EDA67B0085F8F64D /* ZGMainDB.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F911429972B1EBAD947BD83FF6D916BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A5D2A020D232746670D11927A95E7F /* Pods-GitHubProject_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		118A1E7C8FF3F7A1DD915126AD4511D9 /* GitHubProject */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 75DF7CA8C02D484861B85A07BF932238 /* Build configuration list for PBXNativeTarget "GitHubProject" */;
-			buildPhases = (
-				F740ED0589AC26CFB0B95964E8962DFA /* Sources */,
-				55267187B453EDFBF46956C0526EB27E /* Frameworks */,
-				D370669787792CE39838D24454790F92 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FA8D2427DAEBE687EB6987F6FE9A49C7 /* PBXTargetDependency */,
-			);
-			name = GitHubProject;
-			productName = GitHubProject;
-			productReference = B0D849EDD21C30278ACF861EF7AF8672 /* GitHubProject.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		251BAD17812F7EBF6532EACF66F941C3 /* FMDB */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5B0566FF0CE681AC326D316CEC45A8CF /* Build configuration list for PBXNativeTarget "FMDB" */;
-			buildPhases = (
-				8FE0D4B503A94502F3431DC0DCB58040 /* Sources */,
-				EEFB61A65EB8DA6653B544822EB9CE44 /* Frameworks */,
-				3D2A080C5CD4ED4520C6AEFA1D6BA26F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FMDB;
-			productName = FMDB;
-			productReference = 5E12886E3E9FC7839DD54F404C2489EC /* FMDB.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		25754B4C7CE736E5DA20DB864787DA57 /* Pods-GitHubProject_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3993FF3D13115F0BA5F86D32A4C0D1E7 /* Build configuration list for PBXNativeTarget "Pods-GitHubProject_Tests" */;
@@ -610,26 +506,7 @@
 			);
 			name = "Pods-GitHubProject_Tests";
 			productName = "Pods-GitHubProject_Tests";
-			productReference = D41D162534421AC003521E6C0A989715 /* Pods_GitHubProject_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		2F31140E82342F7254DEA6F698E0F8D1 /* Pods-GitHubProject_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4E0EE8C61F85C701E7CF4C805FE9D88A /* Build configuration list for PBXNativeTarget "Pods-GitHubProject_Example" */;
-			buildPhases = (
-				0DA3D5F1EF0DFB58227D3BF3C8A88FA2 /* Sources */,
-				CDBC1AC83F2136DD5B0EB3054E38BD1D /* Frameworks */,
-				5578D9C156C8BC79771044394D64C482 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F4687AE11C417E8ED0CF0300D0A27DEC /* PBXTargetDependency */,
-				2130B0869A0AE6FCD755FCDBCBB43598 /* PBXTargetDependency */,
-			);
-			name = "Pods-GitHubProject_Example";
-			productName = "Pods-GitHubProject_Example";
-			productReference = A86FF5B38144D9F5A652E62B3D067170 /* Pods_GitHubProject_Example.framework */;
+			productReference = 3D41B353086413337BD54158C7D63455 /* Pods_GitHubProject_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
@@ -646,7 +523,42 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = 62D31D8E3B2C64C360DE2FFB1E9DD917 /* FBSnapshotTestCase.framework */;
+			productReference = 18CA694A2F539B210344732D3C3F6065 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		66DD40A81ED9DD6A28E6B8BD1775287B /* Pods-GitHubProject_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB919D9886412B8D92B6E1ADD1BE27D /* Build configuration list for PBXNativeTarget "Pods-GitHubProject_Example" */;
+			buildPhases = (
+				CC93A93EC12AD4D901E48FD442D5EB31 /* Sources */,
+				9272177E63CD1A5506E6FB6CEA69EB2D /* Frameworks */,
+				F911429972B1EBAD947BD83FF6D916BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F925AD43DE73D405B7B3203D631A25BE /* PBXTargetDependency */,
+			);
+			name = "Pods-GitHubProject_Example";
+			productName = "Pods-GitHubProject_Example";
+			productReference = 4EA1653B426B097B0D5136C5B2EE2B23 /* Pods_GitHubProject_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		856F36236C70060763149645387C6A19 /* GitHubProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A72D850E79242603D58C2B36B4B5B31A /* Build configuration list for PBXNativeTarget "GitHubProject" */;
+			buildPhases = (
+				11BC6396FF46E3B1BB67C31214E9C441 /* Sources */,
+				0C86E17DDE233C2E0C342764CA15751A /* Frameworks */,
+				D5913411C8029F0F93226B07DC861775 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitHubProject;
+			productName = GitHubProject;
+			productReference = ADC09A392B9CA27EA64F2D25726115C4 /* GitHubProject.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -666,14 +578,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B1CF94EFBEBED0422B1EF07EDCAA7A9A /* Products */;
+			productRefGroup = C4AE05406C67C0B7CAAABB5E9A9F63DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
-				251BAD17812F7EBF6532EACF66F941C3 /* FMDB */,
-				118A1E7C8FF3F7A1DD915126AD4511D9 /* GitHubProject */,
-				2F31140E82342F7254DEA6F698E0F8D1 /* Pods-GitHubProject_Example */,
+				856F36236C70060763149645387C6A19 /* GitHubProject */,
+				66DD40A81ED9DD6A28E6B8BD1775287B /* Pods-GitHubProject_Example */,
 				25754B4C7CE736E5DA20DB864787DA57 /* Pods-GitHubProject_Tests */,
 			);
 		};
@@ -688,24 +599,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0DA3D5F1EF0DFB58227D3BF3C8A88FA2 /* Sources */ = {
+		11BC6396FF46E3B1BB67C31214E9C441 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E353B2C72DD91DC68C00EDCEB0B77D2 /* Pods-GitHubProject_Example-dummy.m in Sources */,
+				28FACC0F8B521138CA0089D7DDC62B77 /* FMDatabase.m in Sources */,
+				8829B1E1D21904B374A2BC497BF1479C /* FMDatabaseAdditions.m in Sources */,
+				19A108B542A8D194BB27511E9E03F43E /* FMDatabasePool.m in Sources */,
+				635FC05510A74FCF21FA6322CB00A75D /* FMDatabaseQueue.m in Sources */,
+				B471ADDE37E2D0EA773D8440133F8277 /* FMResultSet.m in Sources */,
+				079B52BC9FB63DD8F80AEE9EB1235DEC /* GitHubProject-dummy.m in Sources */,
+				893B3B0454BD2E4B96C81047428989EE /* NSCache+ZGCache.m in Sources */,
+				120C37AA4ECD1141D883C1687884937D /* NSObject+ZGModel.m in Sources */,
+				739E97EDF3088F98BE7BA6D10F50260B /* ZGDBModelInfo.m in Sources */,
+				81C592D4B8DC10BA14660242EDB56E8C /* ZGDBTool.m in Sources */,
+				687961BB4E8EA3A4FA0E03EA5DE402E9 /* ZGMainDB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FE0D4B503A94502F3431DC0DCB58040 /* Sources */ = {
+		CC93A93EC12AD4D901E48FD442D5EB31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37F097E2269EF1BD238AD7449D796445 /* FMDatabase.m in Sources */,
-				9C11A290C9C5866A185A54F1EC04E2BB /* FMDatabaseAdditions.m in Sources */,
-				C605A44DF96E7FCACF7D6E37B62F795D /* FMDatabasePool.m in Sources */,
-				A1B5D80A8998311B8C9043E6942925E6 /* FMDatabaseQueue.m in Sources */,
-				D5991941DC41DDDDDACAE0B5D47A4639 /* FMDB-dummy.m in Sources */,
-				87ECA447DB887426665260651B7F147E /* FMResultSet.m in Sources */,
+				C84437DB16514FD05D026EAC79E217BD /* Pods-GitHubProject_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -725,19 +641,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F740ED0589AC26CFB0B95964E8962DFA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8281AE6C7C22E3FD82B213C5813F9C53 /* GitHubProject-dummy.m in Sources */,
-				119016712654512121BCC143E542E7F8 /* NSCache+ZGCache.m in Sources */,
-				753301F2EF1AC35A92C53B30F355BCB7 /* NSObject+ZGModel.m in Sources */,
-				3A66724226D0FFA561865524703B4BF2 /* ZGDBModelInfo.m in Sources */,
-				D7720811F01492F6BA398A5403052507 /* ZGDBTool.m in Sources */,
-				5BF8E302E40D15ACB40DC68693C6443E /* ZGMainDB.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -747,30 +650,18 @@
 			target = 34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */;
 			targetProxy = 6CED4054824ED374ACBD908046FB01F2 /* PBXContainerItemProxy */;
 		};
-		2130B0869A0AE6FCD755FCDBCBB43598 /* PBXTargetDependency */ = {
+		F925AD43DE73D405B7B3203D631A25BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GitHubProject;
-			target = 118A1E7C8FF3F7A1DD915126AD4511D9 /* GitHubProject */;
-			targetProxy = 53B059545930E1BEC917A4D8F0D499F3 /* PBXContainerItemProxy */;
-		};
-		F4687AE11C417E8ED0CF0300D0A27DEC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FMDB;
-			target = 251BAD17812F7EBF6532EACF66F941C3 /* FMDB */;
-			targetProxy = CD7920BC65FA6480E315B52F1F6E4296 /* PBXContainerItemProxy */;
-		};
-		FA8D2427DAEBE687EB6987F6FE9A49C7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FMDB;
-			target = 251BAD17812F7EBF6532EACF66F941C3 /* FMDB */;
-			targetProxy = 73329110BD7555CF3D1BA71CF997D8FD /* PBXContainerItemProxy */;
+			target = 856F36236C70060763149645387C6A19 /* GitHubProject */;
+			targetProxy = 2E44176B835C78559619F25C06535B4D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		227B74A00DE8301589E7753EB534364A /* Release */ = {
+		2505E073A7060446B309E674252EECC5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 139D97A62049F9C19EF31B2B40E70260 /* GitHubProject.xcconfig */;
+			baseConfigurationReference = 58C29D474A2E68BFB1DCAC572E78C536 /* Pods-GitHubProject_Example.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -781,16 +672,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GitHubProject/GitHubProject-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GitHubProject/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-GitHubProject_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GitHubProject/GitHubProject.modulemap";
-				PRODUCT_NAME = GitHubProject;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GitHubProject_Example/Pods-GitHubProject_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GitHubProject_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -798,36 +692,7 @@
 			};
 			name = Release;
 		};
-		236E3EAC94FCD738D267D84A3E727EEE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C120DEA0D835B3E2FE781FED5B28DD38 /* FMDB.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
-				PRODUCT_NAME = FMDB;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		454E0129C1862087E8761B90CE85CB2D /* Debug */ = {
+		4BB45D63B6E0B2B79A7E34DA5FAC10CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B66E61FBBB00E3EBB53B09F744252EE /* Pods-GitHubProject_Example.debug.xcconfig */;
 			buildSettings = {
@@ -853,35 +718,6 @@
 				PRODUCT_NAME = Pods_GitHubProject_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4C0DE263EB5FB73320B0D435EE508A21 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 139D97A62049F9C19EF31B2B40E70260 /* GitHubProject.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GitHubProject/GitHubProject-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GitHubProject/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GitHubProject/GitHubProject.modulemap";
-				PRODUCT_NAME = GitHubProject;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -951,6 +787,65 @@
 			};
 			name = Debug;
 		};
+		54096251C23D592A115524B41FB321A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D2C800EDD16107EBD260E838758645 /* GitHubProject.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GitHubProject/GitHubProject-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GitHubProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GitHubProject/GitHubProject.modulemap";
+				PRODUCT_NAME = GitHubProject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		758C180E79039861A24F5289664E3AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D2C800EDD16107EBD260E838758645 /* GitHubProject.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GitHubProject/GitHubProject-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GitHubProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GitHubProject/GitHubProject.modulemap";
+				PRODUCT_NAME = GitHubProject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1009,72 +904,9 @@
 			};
 			name = Release;
 		};
-		8B924C5F5B8D15C970A112339CE1DE14 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C120DEA0D835B3E2FE781FED5B28DD38 /* FMDB.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
-				PRODUCT_NAME = FMDB;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A1ED4368959BD3B2FE413B8A97DC479C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58C29D474A2E68BFB1DCAC572E78C536 /* Pods-GitHubProject_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GitHubProject_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GitHubProject_Example/Pods-GitHubProject_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GitHubProject_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		B2E52370F534DFE0FF7634F754F4F618 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 300E886661BEF53EA9C452831D3A3C4C /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1105,7 +937,7 @@
 		};
 		CEA992D818C17C13A97E42D0734BF7D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 300E886661BEF53EA9C452831D3A3C4C /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1204,6 +1036,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1AB919D9886412B8D92B6E1ADD1BE27D /* Build configuration list for PBXNativeTarget "Pods-GitHubProject_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB45D63B6E0B2B79A7E34DA5FAC10CA /* Debug */,
+				2505E073A7060446B309E674252EECC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1222,29 +1063,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E0EE8C61F85C701E7CF4C805FE9D88A /* Build configuration list for PBXNativeTarget "Pods-GitHubProject_Example" */ = {
+		A72D850E79242603D58C2B36B4B5B31A /* Build configuration list for PBXNativeTarget "GitHubProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				454E0129C1862087E8761B90CE85CB2D /* Debug */,
-				A1ED4368959BD3B2FE413B8A97DC479C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5B0566FF0CE681AC326D316CEC45A8CF /* Build configuration list for PBXNativeTarget "FMDB" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				236E3EAC94FCD738D267D84A3E727EEE /* Debug */,
-				8B924C5F5B8D15C970A112339CE1DE14 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		75DF7CA8C02D484861B85A07BF932238 /* Build configuration list for PBXNativeTarget "GitHubProject" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4C0DE263EB5FB73320B0D435EE508A21 /* Debug */,
-				227B74A00DE8301589E7753EB534364A /* Release */,
+				54096251C23D592A115524B41FB321A5 /* Debug */,
+				758C180E79039861A24F5289664E3AD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

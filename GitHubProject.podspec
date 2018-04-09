@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GitHubProject'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.summary          = 'A short description of GitHubProject.'
 
 # This description is used to generate tags and improve search results.
@@ -27,13 +27,21 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  
+  
 
 #s.source_files = 'GitHubProject/Classes/ZGDB/FMDB.h'
+
+s.subspec 'FMDB' do |f|
+    f.source_files = 'GitHubProject/Classes/FMDB/**/*.{swift,h,m,c}'
+    #f.dependency 'FMDB'
+end
+
   s.subspec 'ZGDB' do |z|
    z.source_files = 'GitHubProject/Classes/ZGDB/**/*.{swift,h,m,c}'
-
+   z.dependency 'GitHubProject/FMDB'
   end
-  s.dependency 'FMDB'
+
   # s.resource_bundles = {
   #   'GitHubProject' => ['GitHubProject/Assets/*.png']
   # }

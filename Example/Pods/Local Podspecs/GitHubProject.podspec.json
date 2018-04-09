@@ -1,6 +1,6 @@
 {
   "name": "GitHubProject",
-  "version": "0.1.7",
+  "version": "0.1.9",
   "summary": "A short description of GitHubProject.",
   "description": "github上的测试类 GitHubProject.",
   "homepage": "https://github.com/defuliu/PrivatePod",
@@ -13,20 +13,24 @@
   },
   "source": {
     "git": "https://github.com/defuliu/PrivatePod.git",
-    "tag": "0.1.7"
+    "tag": "0.1.9"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "dependencies": {
-    "FMDB": [
-
-    ]
-  },
   "subspecs": [
     {
+      "name": "FMDB",
+      "source_files": "GitHubProject/Classes/FMDB/**/*.{swift,h,m,c}"
+    },
+    {
       "name": "ZGDB",
-      "source_files": "GitHubProject/Classes/ZGDB/**/*.{swift,h,m,c}"
+      "source_files": "GitHubProject/Classes/ZGDB/**/*.{swift,h,m,c}",
+      "dependencies": {
+        "GitHubProject/FMDB": [
+
+        ]
+      }
     }
   ]
 }

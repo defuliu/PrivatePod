@@ -10,6 +10,12 @@
 #endif
 #endif
 
+#import "FMDatabase.h"
+#import "FMDatabaseAdditions.h"
+#import "FMDatabasePool.h"
+#import "FMDatabaseQueue.h"
+#import "FMDB.h"
+#import "FMResultSet.h"
 #import "NSCache+ZGCache.h"
 #import "NSObject+ZGModel.h"
 #import "ZGDBModelInfo.h"
