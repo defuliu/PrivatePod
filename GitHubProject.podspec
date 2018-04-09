@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GitHubProject'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2gi'
   s.summary          = 'A short description of GitHubProject.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   #s.source_files = 'GitHubProject/Classes/**/*'
   s.subspec 'ZGDB' do |zgdb|
-   zgdb.source_files = 'ZGFrameWork/Classes/Zgdb/**/*.{swift,h,m,c}'
+   zgdb.source_files = 'GitHubProject/Classes/Zgdb/**/*.{swift,h,m,c}'
    zgdb.dependency 'FMDB'
   end
   
