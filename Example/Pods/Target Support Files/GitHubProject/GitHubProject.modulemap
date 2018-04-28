@@ -1,0 +1,6 @@
+framework module GitHubProject {
+  umbrella header "GitHubProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

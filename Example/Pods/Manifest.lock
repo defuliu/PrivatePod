@@ -1,0 +1,30 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GitHubProject (0.1.9):
+    - GitHubProject/FMDB (= 0.1.9)
+    - GitHubProject/Runtime (= 0.1.9)
+    - GitHubProject/ZGDB (= 0.1.9)
+  - GitHubProject/FMDB (0.1.9)
+  - GitHubProject/Runtime (0.1.9)
+  - GitHubProject/ZGDB (0.1.9):
+    - GitHubProject/FMDB
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GitHubProject (from `../`)
+
+EXTERNAL SOURCES:
+  GitHubProject:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GitHubProject: 44c679ed8fb3022ff9b06dbb82a9270bd61a516b
+
+PODFILE CHECKSUM: 85149702bef5fe387055d1c238537e697ca18074
+
+COCOAPODS: 1.4.0
