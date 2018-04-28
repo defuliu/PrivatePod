@@ -7,8 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ZGHanlderMsgProtocol.h"
 
 @interface ZGHandlerMsg : NSObject
+
+- (instancetype)initWithModle:(id<ZGHanlderMsgProtocol>)handle;
 
 /**
  消息机制运行时调用类方法
